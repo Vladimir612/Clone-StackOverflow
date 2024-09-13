@@ -1,0 +1,19 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  border-radius: 0.5rem;
+  background-color: var(--dark-gray-800);
+  box-shadow: 2px 2px 5px #00000035;
+  .header {
+    margin-bottom: 12px;
+  }
+
+  p {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: var(--black-500);
+  }
+}

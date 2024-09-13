@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 6px 0;
+  width: 100%;
+}
+
+.label {
+  margin: 2px 0;
+  padding: 0 2px;
+  color: var(--green-200);
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.inputContainer {
+  position: relative;
+  margin: 2px 0;
+}
+
+.error {
+  padding-right: 32px;
+  outline: 0;
+  border: 1px solid var(--red-400);
+  border-radius: 3px;
+  overflow: hidden;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.inputFocused {
+  border-color: var(--green-500);
+  outline: 0;
+}
+
+.errorMessage {
+  margin: 2px 0;
+  color: var(--red-500);
+  padding: 2px;
+  font-size: 12px;
+}
+
+.alert {
+  position: absolute;
+  color: var(--red-400);
+  font-size: 15px;
+  right: 11px;
+  height: 100%;
+  top: 0;
+}
+
+.tagContainer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  left: 7px;
+  top: 0;
+}

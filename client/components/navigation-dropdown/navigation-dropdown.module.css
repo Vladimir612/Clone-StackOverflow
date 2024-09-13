@@ -1,0 +1,19 @@
+.dialog {
+  position: absolute;
+  top: 47px;
+  display: block;
+  color: var(--black-700);
+  font-size: 12px;
+  background-color: var(--white);
+  z-index: 1;
+  border-left: 1px solid var(--black-075);
+  border-right: 1px solid var(--black-075);
+  border-bottom: 1px solid var(--black-075);
+}
+
+.sidebar {
+  width: 164px;
+  flex-shrink: 0;
+  z-index: 2;
+  transition: box-shadow ease-in-out 0.1s, transform ease-in-out 0.1s;
+}
