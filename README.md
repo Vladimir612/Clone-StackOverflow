@@ -21,4 +21,5 @@ cd ../client
 pokrenuti sledece komande
 
 npm install
+
 npm run dev
