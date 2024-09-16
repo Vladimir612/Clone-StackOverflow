@@ -16,8 +16,7 @@ npm run dev
 
 nakon toga uci u klijentski deo
 
-cd ..
-cd client
+cd ../client
 
 pokrenuti sledece komande
 
